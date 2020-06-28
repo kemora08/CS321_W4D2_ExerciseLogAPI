@@ -4,8 +4,7 @@ using System.Text;
 
 namespace CS321_W4D2_ExerciseLogAPI.Core.Models
 {
-    class ActivityType
-    {
+   
         public enum RecordType
         {
             DurationOnly, // only record duration
@@ -17,6 +16,9 @@ namespace CS321_W4D2_ExerciseLogAPI.Core.Models
             public int Id { get; set; }
             public string Name { get; set; }
             public RecordType RecordType { get; set; }
-        }
+        public object Users { get; set; }
+        public object activityType { get; set; }
+        public object User { get; set; }
     }
+    
 }

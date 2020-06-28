@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CS321_W4D2_ExerciseLogAPI.Core.Models
 {
-    class Activity
+    public class Activity
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
