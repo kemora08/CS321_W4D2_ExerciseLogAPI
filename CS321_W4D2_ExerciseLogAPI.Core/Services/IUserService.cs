@@ -17,6 +17,5 @@ namespace CS321_W4D2_ExerciseLogAPI.Core.Services
         void Remove(User todo);
         // list
         IEnumerable<User> GetAll();
-        object GetUsersForUser(object userId);
     }
 }

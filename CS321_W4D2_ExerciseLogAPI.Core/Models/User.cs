@@ -9,6 +9,5 @@ namespace CS321_W4D2_ExerciseLogAPI.Core.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<Activity> Activities { get; set; }
-        public object Users { get; set; }
     }
 }

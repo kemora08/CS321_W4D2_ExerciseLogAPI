@@ -33,17 +33,7 @@ namespace CS321_W4D2_ExerciseLogAPI.Controllers
             return Ok(userModels);
         }
 
-        // TODO: Add a route that returns all users for an user
-        // GET api/user/{userId}/users
-        [HttpGet("/api/userss/{userId}/users")]
-        public IActionResult GetActivitiesForUser(int UserId)
-        {
-            var userModels = _userService
-                .GetUsersForUser(userId)
-                .ToApiModels();
-
-            return Ok(userModels);
-        }
+      
 
         // get specific user by id
         // GET api/users/:id

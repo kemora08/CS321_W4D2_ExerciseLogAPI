@@ -31,11 +31,10 @@ namespace CS321_W4D2_ExerciseLogAPI.ApiModels
                 Id = activityModel.Id,
                 Date = activityModel.Date,
                 ActivityTypeId = activityModel.ActivityTypeId,
-                ActivityType = activityModel.ActivityTypeId.Name,
                 Duration = activityModel.Duration,
                 Distance = activityModel.Distance,
                 UserId = activityModel.UserId,
-                User = activityModel.User.Name,
+                User = null,
                 Notes = activityModel.Notes,
                 // TODO: fill in property mappings
                 // TODO: leave User and ActivityType null
